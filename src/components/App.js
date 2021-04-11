@@ -1,7 +1,8 @@
 import React from 'react';
-
+//Import Pages
+import AboutUs from 'pages/AboutUs';
 const App = () => {
-  return <div>Hello</div>;
+  return <AboutUs />;
 };
 
 export default App;
