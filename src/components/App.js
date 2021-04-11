@@ -1,8 +1,15 @@
 import React from 'react';
-//Import Pages
+// Global Style
+import GlobalStyle from 'components/GlobalStyle';
+// Import Pages
 import AboutUs from 'pages/AboutUs';
 const App = () => {
-  return <AboutUs />;
+  return (
+    <>
+      <GlobalStyle />
+      <AboutUs />;
+    </>
+  );
 };
 
 export default App;
