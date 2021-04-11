@@ -6,8 +6,8 @@ const GlobalStyle = createGlobalStyle`
   box-sizing: border-box;
 }
 body { 
-  ${'' /* background: #1b1b1b; */}
-  background: #111111;
+  background: #1b1b1b;
+  ${'' /* background: #111111; */}
   font-family: 'Inter', sans-serif;
 }
 button { 
