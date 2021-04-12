@@ -1,7 +1,18 @@
 import React from 'react';
-
+// Animations
+import { motion } from 'framer-motion';
+import { pageAnimation } from '../animation';
 const ContactUs = () => {
-  return <div>Hello from ContactUs</div>;
+  return (
+    <motion.div
+      variants={pageAnimation}
+      initial="hidden"
+      animate="show"
+      exit="exit"
+    >
+      Hello from ContactUs
+    </motion.div>
+  );
 };
 
 export default ContactUs;
