@@ -1,8 +1,10 @@
 import React from 'react';
+// Assets
 import home1 from 'assets/home1.png';
-// Styled
-import styled from 'styled-components';
+// Styles
 import { BasicLayout, Description, Image, Hide } from '../styles';
+// Components
+import Wave from 'components/Wave';
 // Framer Motion
 import { motion } from 'framer-motion';
 import { titleAnim, fade, photoAnim } from '../animation';
@@ -33,6 +35,7 @@ const AboutSection = () => {
       <Image>
         <motion.img variants={photoAnim} src={home1} alt="guy with a camera" />
       </Image>
+      <Wave />
     </BasicLayout>
   );
 };
