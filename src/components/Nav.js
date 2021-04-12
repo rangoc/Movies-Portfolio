@@ -30,7 +30,7 @@ const StyledNav = styled.nav`
   justify-content: space-between;
   align-items: center;
   padding: 1rem 10rem;
-  background: #282828;
+  background: #141414;
   a {
     color: white;
     text-decoration: none;
