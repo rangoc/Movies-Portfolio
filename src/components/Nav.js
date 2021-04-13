@@ -30,7 +30,10 @@ const StyledNav = styled.nav`
   justify-content: space-between;
   align-items: center;
   padding: 1rem 10rem;
-  background: #141414;
+  background: #111111;
+  position: sticky;
+  top: 0;
+  z-index: 10;
   a {
     color: white;
     text-decoration: none;

@@ -16,6 +16,7 @@ import {
   sliderContainer,
 } from '../animation';
 import { useScroll } from 'components/useScroll';
+import ScrollTop from 'components/ScrollTop';
 const OurWork = () => {
   const [element, controls] = useScroll();
   const [element2, controls2] = useScroll();
@@ -27,6 +28,7 @@ const OurWork = () => {
       animate="show"
       exit="exit"
     >
+      <ScrollTop />
       <motion.div variants={sliderContainer}>
         <Frame1 variants={slider} />
         <Frame2 variants={slider} />

@@ -9,6 +9,7 @@ body {
   ${'' /* background: #1b1b1b; */}
   background: #111111;
   font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
 }
 button { 
   font-weight: bold;

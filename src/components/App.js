@@ -12,6 +12,7 @@ import Nav from 'components/Nav';
 import { Switch, Route, useLocation } from 'react-router-dom';
 // Animation
 import { AnimatePresence } from 'framer-motion';
+
 const App = () => {
   const location = useLocation();
   return (
